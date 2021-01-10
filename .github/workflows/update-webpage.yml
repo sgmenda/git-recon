@@ -1,0 +1,23 @@
+name: Update Webpage
+
+on: [push, pull_request]
+
+jobs:
+    update-webpage:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-python@v2
+            - name: Set up pipenv
+              run: pip install pipenv
+            - name: Install deps
+              run: pipenv install
+            - name: Run generate
+              run: pipenv run python generate.py
+            - name: Update docs/index.html
+              uses: EndBug/add-and-commit@v6
+              with:
+                  add: docs/index.html
+                  author_name: ghactions
+                  author_email: ghactions@example.invalid
+                  message: "ghactions: updated docs/index.html"
