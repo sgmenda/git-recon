@@ -184,7 +184,7 @@ Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon
                 matchingCommits=matchingCommits,
                 lenMatchingCommits=len(matchingCommits),
                 lastUpdated=time.strftime(
-                    "%a, %d %b %Y",
+                    "%a, %d %b %Y, %H:%M:%S +0000",
                     time.gmtime(),
                 ),
             )

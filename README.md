@@ -13,7 +13,6 @@ You can find my instance at [snkth.com/git-recon](https://snkth.com/git-recon). 
 
 #### Running Locally
 
-To run it locally,
 1. clone the repo;
 2. update the `config.toml` file to use your projects and keywords;
 3. `pipenv install` to install deps;
