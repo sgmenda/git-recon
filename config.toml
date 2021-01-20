@@ -129,7 +129,7 @@ commitUrlPrefix = "https://github.com/phacility/phabricator/commit/"
 
 [projects.Rails]
 url = "https://github.com/rails/rails.git"
-branch = "master"
+branch = "main"
 commitUrlPrefix = "https://github.com/rails/rails/commit/"
 
 [projects.FFMPEG]
