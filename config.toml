@@ -148,7 +148,7 @@ commitUrlPrefix = "https://github.com/libav/libav/commit/"
 
 [projects.ImageMagick]
 url = "https://github.com/ImageMagick/ImageMagick.git"
-branch = "master"
+branch = "main"
 commitUrlPrefix = "https://github.com/ImageMagick/ImageMagick/commit/"
 
 [projects.libpng]
