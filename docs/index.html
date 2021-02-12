@@ -36,19 +36,67 @@ Found 39 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/rails/rails/commit/1b455e2e9d6937d4107e19cb32e2f98aa08886b9">Rails 6.2 is now Rails 7.0</a></td>
-    <td>Rails</td>
-    <td>openssl</td>
-    <td>Rafael Mendonça França</td>
-    <td>Thu, 04 Feb 2021</td>
+    <td><a href="https://github.com/openssl/openssl/commit/03bbd346f4410c329d472cc043fb6c49f6688eba">Fetch cipher after loading providers</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Rich Salz</td>
+    <td>Thu, 11 Feb 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/rails/rails/commit/164c2f625742da95407c44c70a381e2c80e4e118">Modernize scaffold generator (#41210)</a></td>
-    <td>Rails</td>
+    <td><a href="https://github.com/openssl/openssl/commit/d0190e11639956677747f6bc7bb5bcd610fd8600">Process digest option after loading providers</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Rich Salz</td>
+    <td>Thu, 11 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/51e5df0ed01efa47335940425cc8744ecff1b6ae">Load rand state after loading providers</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Rich Salz</td>
+    <td>Thu, 11 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/c926a5ecb7a855c2ca1716e4c408410d2b2adccd">X509_STORE_CTX_cleanup(): Use internally so no need to call explicitly</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Thu, 11 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/f1923a2147cdbfbc67ab54dfc15d2c6c4611ea9c">X509_STORE_CTX_get1_issuer(): Make preference on expired certs consistent with find_issuer()</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Thu, 11 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/d1e85cdf79989685800968afe5099138bdc38729">x509_vfy.c: Make chain_build() error diagnostics to the point</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Thu, 11 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/f5f29796f00b94d150087bc72469a4f60a67a23b">Various cleanup of PROV_R_ reason codes</a></td>
+    <td>OpenSSL</td>
     <td>aes </td>
-    <td>David Heinemeier Hansson</td>
-    <td>Thu, 04 Feb 2021</td>
+    <td>Tomas Mraz</td>
+    <td>Thu, 11 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/2741128e9deeb7f6fd73f10a1c657c05433a41cb">Move the PROV_R reason codes to a public header</a></td>
+    <td>OpenSSL</td>
+    <td>aes </td>
+    <td>Tomas Mraz</td>
+    <td>Thu, 11 Feb 2021</td>
     </tr>
 
     <tr>
@@ -283,60 +331,12 @@ Found 39 keyword matches!
     <td>Fri, 05 Feb 2021</td>
     </tr>
 
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/7dc67708c8ae6ec06c7fec34781225ed60b5e68d">apps/openssl: add -propquery command line option</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Petr Gotthard</td>
-    <td>Fri, 05 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/88444854affe31ce08a5daaf4b6afc86e6972c63">x509_vfy.c: Improve coding style and comments all over the file</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Dr. David von Oheimb</td>
-    <td>Thu, 04 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/08cea586c9d0fd2fcf99ec1eacb7736a34139d8b">Remove some TODO(OpenSSL1.2) references</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Matt Caswell</td>
-    <td>Thu, 04 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/d53b437f9992f974c1623e9b9b9bdf053aefbcc3">Allow NULL arg to OPENSSL_sk_{dup,deep_copy} returning empty stack</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Dr. David von Oheimb</td>
-    <td>Thu, 04 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/c87bcdbde40eece72e81d8bf2c9219ce271d56e6">test/recipes: split 81_test_cmp_cli.t, add test using -engine loader_attic</a></td>
-    <td>OpenSSL</td>
-    <td> tls </td>
-    <td>Dr. David von Oheimb</td>
-    <td>Thu, 04 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/nss-dev/nss/commit/1b6a8571fb86328f263d903705f770f0dfd274ab">Bug 1690583 - Fix CH padding extension size calculation. r=mt</a></td>
-    <td>NSS</td>
-    <td>chacha</td>
-    <td>Kevin Jacobs</td>
-    <td>Thu, 04 Feb 2021</td>
-    </tr>
-
 </table>
 </div>
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Thu, 11 Feb 2021, 00:30:43 +0000;
+<strong>Last Updated:</strong> Fri, 12 Feb 2021, 00:30:56 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
