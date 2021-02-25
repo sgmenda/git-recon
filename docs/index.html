@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 60 keyword matches!
+Found 59 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -108,22 +108,6 @@ Found 60 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://gitweb.torproject.org/tor.git/commit/?id=2709828494b961c92b9389bb2fd934f932fe54bc">Merge branch 'tor-gitlab/mr/311'</a></td>
-    <td>Tor</td>
-    <td>openssl</td>
-    <td>David Goulet</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://gitweb.torproject.org/tor.git/commit/?id=aebd0a4080559a5c24e580ddf50e5b5c8ff1cc29">Make our configure.ac script use the portable `=` comparison</a></td>
-    <td>Tor</td>
-    <td>openssl</td>
-    <td>Nick Mathewson</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/phacility/phabricator/commit/be0bb68f653696943ad8dbf2a431fc37016e20fb">Remove Facebook OAuth dependency on "security_settings" property</a></td>
     <td>Phabricator</td>
     <td>oauth</td>
@@ -145,6 +129,86 @@ Found 60 keyword matches!
     <td>ed448</td>
     <td>Andreas Rheinhardt</td>
     <td>Fri, 19 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/5eb73cfb372a3701a25f9d4f5e109ba21669af61">Add a test for a names_do_all function</a></td>
+    <td>OpenSSL</td>
+    <td> sha256 </td>
+    <td>Matt Caswell</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/d84f5515faf3fe00ed5eeca7e7b8b041be863e90">Don't hold a lock when calling a callback in ossl_namemap_doall_names</a></td>
+    <td>OpenSSL</td>
+    <td> kdf </td>
+    <td>Matt Caswell</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/a8eb71ad577bbbd41cea915315451f0ef9f11581">Allow the sshkdf type to be passed as a single character</a></td>
+    <td>OpenSSL</td>
+    <td> sha-256 </td>
+    <td>Richard Levitte</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/53cefef62ba7b1262374874aa8ce0aa34419d8ff">Remove inclusion of unnecessary header files</a></td>
+    <td>OpenSSL</td>
+    <td> dsa </td>
+    <td>Tomas Mraz</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/7415ffe36896a6cce6f83db5ec1c54e69213c5b1">Use strcasecmp when comparing kdf_type</a></td>
+    <td>OpenSSL</td>
+    <td> kdf </td>
+    <td>Tomas Mraz</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/f3ccfc76fe3b73190e3de60fb8c8c39d88203db1">speed: Use EVP for ciphers, cmac, ghash, rsa, dsa, and ecdsa</a></td>
+    <td>OpenSSL</td>
+    <td>aes </td>
+    <td>Tomas Mraz</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/a89cd8d87c48b1d3561ce74af79e1d4fbaa034b7">speed: Adapt digests and hmac to always use non-deprecated APIs</a></td>
+    <td>OpenSSL</td>
+    <td> hmac</td>
+    <td>Tomas Mraz</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/ee1d7f1d25ef24f111f13dc742474cd9c39c2753">speed: Drop code to handle platforms without SIGALRM</a></td>
+    <td>OpenSSL</td>
+    <td>ed25519</td>
+    <td>Tomas Mraz</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/b0001d0cf2539b9309712e3e04f407dcbb04352c">provider: add an unquery function to allow providers to clean up.</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Pauli</td>
+    <td>Wed, 24 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/10315851d0230646947213ac148747bc64c56798">X509: Refactor X509_PUBKEY processing to include provider side keys</a></td>
+    <td>OpenSSL</td>
+    <td> dsa </td>
+    <td>Richard Levitte</td>
+    <td>Wed, 24 Feb 2021</td>
     </tr>
 
     <tr>
@@ -388,46 +452,6 @@ Found 60 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/adc11e1b9cf12df3c67de165a2b42ac72266cbca">x509_vfy: fix mem leaks in chain_build() on malloc error Coverify CID 1473068</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Dr. David von Oheimb</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/b51bed05c2ab54a1933b5c18862e68cd4540278c">apps/cmp.c: Improve initialization of ext_ctx structure w.r.t. CSR</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Dr. David von Oheimb</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/d44a8a16c8a2851af7f70575ff3dd23cc06f30e1">apps/ca.c: Make sure ext_ctx structure gets initialized</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Dr. David von Oheimb</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/fe75766c9c2919f649df7b3ad209df2bc5e56dd0">Rename OSSL_ENCODER_CTX_new_by_EVP_PKEY and OSSL_DECODER_CTX_new_by_EVP_PKEY</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Tomas Mraz</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/e5ac413b2d3d6bcff57446f06f3d05650921f182">Fix backward incompatibility revolving around OSSL_HTTP_REQ_CTX_sendreq_d2i()</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Richard Levitte</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/bcgit/bc-java/commit/ad81ca2a11c195e54a8f583daf102a3e9a83d460">kangaroo 12 info</a></td>
     <td>BouncyCastle</td>
     <td>chacha</td>
@@ -460,43 +484,11 @@ Found 60 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/5c4dbdd6e85758028c0fb8fd368fdad95a80c114">added github #888 details</a></td>
-    <td>BouncyCastle</td>
-    <td>ed25519</td>
-    <td>David Hook</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/2060f57f48b5b8be48e0a0e6a3373118b5248afe">Used correct Ed25519 reference constant.</a></td>
-    <td>BouncyCastle</td>
-    <td>ed25519</td>
-    <td>David Hook</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/15628baf9521da0c520a3b83e20535e0339c08f4">replaced 32 with Ed25519 reference constant.</a></td>
-    <td>BouncyCastle</td>
-    <td>ed25519</td>
-    <td>David Hook</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/43c4dfe0e0a4a9b295ad437548d69fcb3db2ce68">Merge branch 'pgpainless-ed25519FixedLength'</a></td>
-    <td>BouncyCastle</td>
-    <td>ed25519</td>
-    <td>David Hook</td>
-    <td>Wed, 17 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/2ab453083e0c0d102eab4832ca3449602a058c82">Merge branch 'ed25519FixedLength' of https://github.com/pgpainless/bc-java into pgpainless-ed25519FixedLength</a></td>
-    <td>BouncyCastle</td>
-    <td>ed25519</td>
-    <td>David Hook</td>
-    <td>Wed, 17 Feb 2021</td>
+    <td><a href="https://github.com/nss-dev/nss/commit/49dd1c6fa44702e3fdb75f8971f2ddd9ed280747">Bug 1685880 - Fix for the gcc compiler version 7 to support setenv with nss build. r=rrelyea</a></td>
+    <td>NSS</td>
+    <td> nss </td>
+    <td>Arora Aashish</td>
+    <td>Wed, 24 Feb 2021</td>
     </tr>
 
 </table>
@@ -504,7 +496,7 @@ Found 60 keyword matches!
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Wed, 24 Feb 2021, 00:32:07 +0000;
+<strong>Last Updated:</strong> Thu, 25 Feb 2021, 00:31:54 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
