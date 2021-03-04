@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 42 keyword matches!
+Found 36 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -18,6 +18,14 @@ Found 42 keyword matches!
 <th scope="col">Author</th>
 <th scope="col">Date</th>
 </tr>
+
+    <tr>
+    <td><a href="https://gitweb.torproject.org/tor.git/commit/?id=80b6054bb016aca0b18f8da79f23a859a804ef07">Merge remote-tracking branch 'tor-gitlab/mr/213'</a></td>
+    <td>Tor</td>
+    <td>openssl</td>
+    <td>Alexander Færøy</td>
+    <td>Wed, 03 Mar 2021</td>
+    </tr>
 
     <tr>
     <td><a href="https://github.com/phacility/phabricator/commit/15dbf6bdf0a504d6bbabc372c859c3f754552b82">When a GlobalLock with an external connection is released, don't return it to the pool</a></td>
@@ -33,6 +41,38 @@ Found 42 keyword matches!
     <td>-ctr </td>
     <td>Vadym Bezdushnyi</td>
     <td>Sat, 27 Feb 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/05869bba7fbe59d04bb8605b81b470d4dedb38ac">Make 'tests' depend on a generated 'providers/fipsmodule.cnf'</a></td>
+    <td>OpenSSL</td>
+    <td> hmac</td>
+    <td>Richard Levitte</td>
+    <td>Wed, 03 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/8593ff00cc66e330228164ae5422f80ef93ed35d">DOCS: Fix provider-mac.pod and the docs of our implementations</a></td>
+    <td>OpenSSL</td>
+    <td> hmac</td>
+    <td>Richard Levitte</td>
+    <td>Wed, 03 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/f21afe636067f9aa27cef94c31d8e32128da0ecb">ossl_rsa_sp800_56b_check_public: Be more lenient with small keys</a></td>
+    <td>OpenSSL</td>
+    <td> rsa </td>
+    <td>Tomas Mraz</td>
+    <td>Wed, 03 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/4e4ae84056133c863860e27ceedae8bd3fb0a402">Fix NULL access in ssl_build_cert_chain() when ctx is NULL.</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Shane Lontis</td>
+    <td>Wed, 03 Mar 2021</td>
     </tr>
 
     <tr>
@@ -244,86 +284,6 @@ Found 42 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/5eb73cfb372a3701a25f9d4f5e109ba21669af61">Add a test for a names_do_all function</a></td>
-    <td>OpenSSL</td>
-    <td> sha256 </td>
-    <td>Matt Caswell</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/d84f5515faf3fe00ed5eeca7e7b8b041be863e90">Don't hold a lock when calling a callback in ossl_namemap_doall_names</a></td>
-    <td>OpenSSL</td>
-    <td> kdf </td>
-    <td>Matt Caswell</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/a8eb71ad577bbbd41cea915315451f0ef9f11581">Allow the sshkdf type to be passed as a single character</a></td>
-    <td>OpenSSL</td>
-    <td> sha-256 </td>
-    <td>Richard Levitte</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/53cefef62ba7b1262374874aa8ce0aa34419d8ff">Remove inclusion of unnecessary header files</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Tomas Mraz</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/7415ffe36896a6cce6f83db5ec1c54e69213c5b1">Use strcasecmp when comparing kdf_type</a></td>
-    <td>OpenSSL</td>
-    <td> kdf </td>
-    <td>Tomas Mraz</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/f3ccfc76fe3b73190e3de60fb8c8c39d88203db1">speed: Use EVP for ciphers, cmac, ghash, rsa, dsa, and ecdsa</a></td>
-    <td>OpenSSL</td>
-    <td>aes </td>
-    <td>Tomas Mraz</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/a89cd8d87c48b1d3561ce74af79e1d4fbaa034b7">speed: Adapt digests and hmac to always use non-deprecated APIs</a></td>
-    <td>OpenSSL</td>
-    <td> hmac</td>
-    <td>Tomas Mraz</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/ee1d7f1d25ef24f111f13dc742474cd9c39c2753">speed: Drop code to handle platforms without SIGALRM</a></td>
-    <td>OpenSSL</td>
-    <td>ed25519</td>
-    <td>Tomas Mraz</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/b0001d0cf2539b9309712e3e04f407dcbb04352c">provider: add an unquery function to allow providers to clean up.</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/10315851d0230646947213ac148747bc64c56798">X509: Refactor X509_PUBKEY processing to include provider side keys</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Richard Levitte</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/bcgit/bc-java/commit/259f43150335d06696dd965a1ef508dd79bbac74">added missing getIssuer() method.</a></td>
     <td>BouncyCastle</td>
     <td>x509</td>
@@ -347,20 +307,12 @@ Found 42 keyword matches!
     <td>Sun, 28 Feb 2021</td>
     </tr>
 
-    <tr>
-    <td><a href="https://github.com/nss-dev/nss/commit/49dd1c6fa44702e3fdb75f8971f2ddd9ed280747">Bug 1685880 - Fix for the gcc compiler version 7 to support setenv with nss build. r=rrelyea</a></td>
-    <td>NSS</td>
-    <td> nss </td>
-    <td>Arora Aashish</td>
-    <td>Wed, 24 Feb 2021</td>
-    </tr>
-
 </table>
 </div>
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Wed, 03 Mar 2021, 00:32:01 +0000;
+<strong>Last Updated:</strong> Thu, 04 Mar 2021, 00:31:59 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
