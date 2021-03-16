@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 40 keyword matches!
+Found 47 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -73,6 +73,46 @@ Found 40 keyword matches!
     <td> tls </td>
     <td>parazyd</td>
     <td>Thu, 11 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/bd55a0be1b5696f643863718e7aa916feccafdf4">Use --debug with no-caching build as sanitizers need it</a></td>
+    <td>OpenSSL</td>
+    <td> tls </td>
+    <td>Tomas Mraz</td>
+    <td>Mon, 15 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/2cf8bb46fc3e0e2aaead764d333c6e216f028ef3">Ensure that ECX keys pass EVP_PKEY_param_check()</a></td>
+    <td>OpenSSL</td>
+    <td> rsa </td>
+    <td>Matt Caswell</td>
+    <td>Mon, 15 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/2db5834c43dcc2a04ccf4cf98f412d4d3474731e">Add a CHANGES entry for the cosmetic differences in textual output</a></td>
+    <td>OpenSSL</td>
+    <td>ed25519</td>
+    <td>Matt Caswell</td>
+    <td>Mon, 15 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/d8a809db4beae9c42954689d3ccff6aa18aae8c3">apps: Make load_key_certs_crls to read only what is expected</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Tomas Mraz</td>
+    <td>Mon, 15 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/ea51096e51571b0dfe1e9e63661ad6f62ce0d82a">apps: Add maybe_stdin argument to load_certs and set it in pkcs12</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Tomas Mraz</td>
+    <td>Mon, 15 Mar 2021</td>
     </tr>
 
     <tr>
@@ -268,43 +308,67 @@ Found 40 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/9afc6c54314f94c0dcb4168d01554497bfaeae4f">Fix the check for suitable groups and TLSv1.3</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Matt Caswell</td>
-    <td>Mon, 08 Mar 2021</td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/11ae75835c6f0998f0d071e92cd1ed3a1f32ab78">github #906 updates</a></td>
+    <td>BouncyCastle</td>
+    <td>openssl</td>
+    <td>David Hook</td>
+    <td>Mon, 15 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/7bc0fdd3fd4535e06c35b92d71afab9a6de94cc5">Make the EVP_PKEY_get0* functions have a const return type</a></td>
-    <td>OpenSSL</td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/cf6a8bdde9d21553d787f27aa6a8bcb4bbb7d2e8">added support for SHAKE128/SHAKE256 as MGF in RSA-PSS</a></td>
+    <td>BouncyCastle</td>
+    <td> hmac</td>
+    <td>David Hook</td>
+    <td>Mon, 15 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/bcgit/bc-java/commit/b2b31c45aa2f455aefb00b8f8d86dfc57d26fbb8">added support for SHAKE digest/xof creation and lookup</a></td>
+    <td>BouncyCastle</td>
+    <td>ed25519</td>
+    <td>David Hook</td>
+    <td>Sun, 14 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/bcgit/bc-java/commit/65b126ebe83792c0bcc3a4c4522e4ad1451a1a15">added GCM-SIV to the provider.</a></td>
+    <td>BouncyCastle</td>
+    <td> gcm </td>
+    <td>David Hook</td>
+    <td>Sun, 14 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/bcgit/bc-java/commit/dcc08ea75ca4586e0744e0e6d01a001b3971317a">BCJSSE: Support jdk.tls.client.enableCAExtension</a></td>
+    <td>BouncyCastle</td>
     <td>x509</td>
-    <td>Matt Caswell</td>
-    <td>Mon, 08 Mar 2021</td>
+    <td>Peter Dettman</td>
+    <td>Wed, 10 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/cc57dc962516410f6269023c8a93913617414b5e">Document the change in behaviour of the the low level key getters/setters</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Matt Caswell</td>
-    <td>Mon, 08 Mar 2021</td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/385d901e0a478743ec257d276daf934b61498e3c">BCJSSE: Support jdk.tls.maxHandshakeMessageSize</a></td>
+    <td>BouncyCastle</td>
+    <td> tls </td>
+    <td>Peter Dettman</td>
+    <td>Tue, 09 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/8e53d94d9971bb29a303dd2295f2f169b1c9a35e">Ensure the various legacy key EVP_PKEY getters/setters are deprecated</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Matt Caswell</td>
-    <td>Mon, 08 Mar 2021</td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/9363740337d9913c640d391a895ebe71f6ed4024">BCJSSE: Support jdk.tls.maxCertificateChainLength</a></td>
+    <td>BouncyCastle</td>
+    <td> tls </td>
+    <td>Peter Dettman</td>
+    <td>Tue, 09 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/b574c6a9ac96825b4f19c5e835273bf176174af8">Cache legacy keys instead of downgrading them</a></td>
-    <td>OpenSSL</td>
-    <td> rsa </td>
-    <td>Matt Caswell</td>
-    <td>Mon, 08 Mar 2021</td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/9ab92004b976fd8eb6488b7a951eaf37cd2e334f">BCJSSE: New utility classes</a></td>
+    <td>BouncyCastle</td>
+    <td> ssl </td>
+    <td>Peter Dettman</td>
+    <td>Tue, 09 Mar 2021</td>
     </tr>
 
     <tr>
@@ -331,20 +395,12 @@ Found 40 keyword matches!
     <td>Wed, 10 Mar 2021</td>
     </tr>
 
-    <tr>
-    <td><a href="https://github.com/nss-dev/nss/commit/1ec2a888690e6806e8d18d8890d2e574aa6335d2">Bug 1696800 - HACL* update March 2021 - c95ab70fcb2bc21025d8845281bc4bc8987ca683 r=beurdouche</a></td>
-    <td>NSS</td>
-    <td>curve25519</td>
-    <td>Benjamin Beurdouche</td>
-    <td>Mon, 08 Mar 2021</td>
-    </tr>
-
 </table>
 </div>
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Mon, 15 Mar 2021, 00:33:50 +0000;
+<strong>Last Updated:</strong> Tue, 16 Mar 2021, 00:33:02 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
