@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 43 keyword matches!
+Found 33 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -36,19 +36,43 @@ Found 43 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://git.videolan.org/?p=ffmpeg.git;a=commit;h=cbb8943a541e59e5f6ae918f60f8c41e43a5f99c">fate: add adpcm_ima_cunning stereo test case</a></td>
-    <td>FFMPEG</td>
-    <td> md5 </td>
-    <td>Zane van Iperen</td>
-    <td>Fri, 19 Mar 2021</td>
+    <td><a href="https://github.com/openssl/openssl/commit/cede07dc51728edce77336f0fe5fce6d62ed7654">Remove the external BoringSSL test</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Tomas Mraz</td>
+    <td>Fri, 26 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://git.videolan.org/?p=ffmpeg.git;a=commit;h=684745230f93e4ae6a081e6d8890b75d42aa184b">avcodec/adpcm_ima_cunning: support stereo</a></td>
-    <td>FFMPEG</td>
-    <td> md5 </td>
-    <td>Zane van Iperen</td>
-    <td>Fri, 19 Mar 2021</td>
+    <td><a href="https://github.com/openssl/openssl/commit/6466cc97e8222ef69c6bd46a2819a0d6947f0084">HTTP: Fix mem leak of OSSL_HTTP_REQ_CTX_transfer(), rename to ossl_http_req_ctx_transfer()</a></td>
+    <td>OpenSSL</td>
+    <td> tls </td>
+    <td>Dr. David von Oheimb</td>
+    <td>Fri, 26 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/77d12ae049c21851b77ff6ee992a362b73a684c8">doc: life-cycle description for KDFs/PRFs</a></td>
+    <td>OpenSSL</td>
+    <td> kdf </td>
+    <td>Pauli</td>
+    <td>Fri, 26 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/2e1a40d0374a2bfc7478e4da5dd6739f7a127a72">doc: note that KDF/PRF transitions will be enforced at some future point</a></td>
+    <td>OpenSSL</td>
+    <td> kdf </td>
+    <td>Pauli</td>
+    <td>Fri, 26 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/4aac71f705f5fff15c6cb0da44d9f8014f48901f">doc: add life-cycle source files</a></td>
+    <td>OpenSSL</td>
+    <td> kdf </td>
+    <td>Pauli</td>
+    <td>Fri, 26 Mar 2021</td>
     </tr>
 
     <tr>
@@ -188,110 +212,6 @@ Found 43 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/c38048e793e4cdf21759d4b068561d3bb0041ae6">sslapitest: fix problem in cleanup on failure path</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Sat, 20 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/72ded6f2a93085f536b4a820ab42b2da26fecf1c">x509: coverity 1472673 & 1472693 - dereference after null checks</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Sat, 20 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/88ce406c895acf8d310835c3af628542364d8129">ssl: coverity 1465527 - dereference after null check</a></td>
-    <td>OpenSSL</td>
-    <td> ssl </td>
-    <td>Pauli</td>
-    <td>Sat, 20 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/77b8b49bdd01e2b1162b337941ebc70fef7030c1">apps: fix Coverity 1472670 & 1472685: resource leaks</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Sat, 20 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/aff442dc38707a5ab4a7acc811c9ef10cbdd3346">Make ossl_d2i_PUBKEY_legacy() completely libcrypto internal</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Richard Levitte</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/55d9ccca8eec8ec57ab85175dea908f8b76fd4e1">TEST: Clarify and adjust test/recipes/30-test_evp.t</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Richard Levitte</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/f4e46b817d587c300faa04fd061ddcdea3dd64c9">PROV: Add type specific MSBLOB and PVK decoding for the MS->key decoders</a></td>
-    <td>OpenSSL</td>
-    <td> rsa </td>
-    <td>Richard Levitte</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/cf333799979755dd46193b49c15db0afd262c6a0">PROV: Add type specific PKCS#8 decoding to the DER->key decoders</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Richard Levitte</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/e0be34beee9ef8ebab49c51581f796e013600b77">PROV: Add RSA-PSS specific OSSL_FUNC_KEYMGMT_LOAD function</a></td>
-    <td>OpenSSL</td>
-    <td> rsa </td>
-    <td>Richard Levitte</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/06f6761280285401f3aaa31502614f7c8dd0c4fb">PROV: Add type specific SubjectPublicKeyInfo decoding to the DER->key decoders</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Richard Levitte</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/65ef000ec26e6ec2fab2c31f74be1b76275bbbe5">PROV: Refactor DER->key decoder</a></td>
-    <td>OpenSSL</td>
-    <td> rsa </td>
-    <td>Richard Levitte</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/0e2f87c03e1a288f5f58627b373a25f83c59318a">Added functions for printing EVP_PKEYs to FILE *</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Tomas Mraz</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/2154a7a754f7347892ef060d5ab4072b8a86d440">Update README-FIPS.md</a></td>
-    <td>OpenSSL</td>
-    <td> sha256 </td>
-    <td>Matt Caswell</td>
-    <td>Fri, 19 Mar 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/bcgit/bc-java/commit/76fb7c56fd7cc10e509660df44b1d943b9cd1747">First pass over RFC 8998</a></td>
     <td>BouncyCastle</td>
     <td>chacha</td>
@@ -368,7 +288,7 @@ Found 43 keyword matches!
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Fri, 26 Mar 2021, 00:17:03 +0000;
+<strong>Last Updated:</strong> Sat, 27 Mar 2021, 00:20:06 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
