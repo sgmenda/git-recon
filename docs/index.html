@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 36 keyword matches!
+Found 41 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -41,6 +41,54 @@ Found 36 keyword matches!
     <td>ed25519</td>
     <td>Roger Dingledine</td>
     <td>Wed, 24 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/c6b09ea0fe23a572a781681b3c1f436e8b0932fe">Fix change in behaviour of EVP_PKEY_CTRL_RSA_KEYGEN_BITS</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Tue, 30 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/1368f0cdf54fb1b7ddb9a9069b60db796abfe1b3">Merge OFB encrypt and decrypt test vectors.</a></td>
+    <td>OpenSSL</td>
+    <td> ofb </td>
+    <td>David Benjamin</td>
+    <td>Tue, 30 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/1ee1a169c310f3dc735a3d83298686cf70aa427a">Fix typos in bio.pod</a></td>
+    <td>OpenSSL</td>
+    <td> ssl </td>
+    <td>Nan Xiao</td>
+    <td>Tue, 30 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/92b3e62fdd5c85101998affe2260ac845cf09ba4">test: fix coverity 1474468: resource leak</a></td>
+    <td>OpenSSL</td>
+    <td> hmac</td>
+    <td>Pauli</td>
+    <td>Tue, 30 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/d0ea0eb331176bf5882e31c8cf2538af16ef76cb">x509: fix coverity 1474470: NULL pointer dereference</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Pauli</td>
+    <td>Tue, 30 Mar 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/03915534851daef6232c514cf1a8ea3158a7704e">x509: fix coverity 1474471: NULL pointer dereference</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Pauli</td>
+    <td>Tue, 30 Mar 2021</td>
     </tr>
 
     <tr>
@@ -260,51 +308,43 @@ Found 36 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/6511f686c2c56d3ed68477981c1a3821bdc2e565">endecode_test: Add file and line arguments to test callbacks</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Jon Spillett</td>
-    <td>Tue, 23 Mar 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/76fb7c56fd7cc10e509660df44b1d943b9cd1747">First pass over RFC 8998</a></td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/bec559d87c0e52b60db1329e06797bca589079cc">Add EncryptionAlgorithm.SM4_CBC</a></td>
     <td>BouncyCastle</td>
     <td>chacha</td>
     <td>Peter Dettman</td>
-    <td>Tue, 23 Mar 2021</td>
+    <td>Mon, 29 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/d7efde867600b250cfb2e18cf24fd8d453b7eb75">Add SM2_ENCRYPTION role</a></td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/c8db22d3376110632a4bdb5bdf3f6e559c07cb05">Add CryptoHashAlgorithm.sm3</a></td>
     <td>BouncyCastle</td>
-    <td> ecdh </td>
+    <td> tls </td>
     <td>Peter Dettman</td>
-    <td>Tue, 23 Mar 2021</td>
+    <td>Mon, 29 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/f940c63093b860e53e7363b59f69b0847e85a7e7">Add TlsCertificateRole constants and use</a></td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/ead8ec18dfa3ad99887e0f9e9dc5883462c92ad8">TLS: Add and use CryptoHashAlgorithm constants</a></td>
     <td>BouncyCastle</td>
-    <td> ecdh </td>
+    <td> hmac</td>
     <td>Peter Dettman</td>
-    <td>Tue, 23 Mar 2021</td>
+    <td>Mon, 29 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/175f8b61fe653f76582afe3553682f8f0423e5a4">github #758 CertificateFactory now ignores extra data if certificates/crls have been found.</a></td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/2a50f8e4447a9f1e179cdbbd29f0b3bee1ee54bd">Fix JDK 8 dependency</a></td>
     <td>BouncyCastle</td>
     <td>x509</td>
-    <td>David Hook</td>
-    <td>Tue, 23 Mar 2021</td>
+    <td>Peter Dettman</td>
+    <td>Mon, 29 Mar 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/9adf339867a8f554b848917b4d2cc35ed82e7b18">github #833 fixed passing of content type in Enveloped/Authenticated streams</a></td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/434b526a6bfd547d0576081a1f3cd2cd44e59afe">Parsing of jdk.tls.server.defaultDHEParameters</a></td>
     <td>BouncyCastle</td>
     <td>x509</td>
-    <td>David Hook</td>
-    <td>Tue, 23 Mar 2021</td>
+    <td>Peter Dettman</td>
+    <td>Wed, 24 Mar 2021</td>
     </tr>
 
 </table>
@@ -312,7 +352,7 @@ Found 36 keyword matches!
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Tue, 30 Mar 2021, 00:14:53 +0000;
+<strong>Last Updated:</strong> Wed, 31 Mar 2021, 00:13:14 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
