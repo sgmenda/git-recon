@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 52 keyword matches!
+Found 56 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -97,6 +97,94 @@ Found 52 keyword matches!
     <td>openssl</td>
     <td>Hiroshi SHIBATA</td>
     <td>Tue, 11 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/afecd85db1359b5a62c037b8a507b928541c779c">Replace some of the ERR_clear_error() calls with mark calls</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Tomas Mraz</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/da51566b256e0c0536d5b986e676863b0526bf5e">ARM assembly pack: translate bit-sliced AES implementation to AArch64</a></td>
+    <td>OpenSSL</td>
+    <td>aes </td>
+    <td>Ben Avison</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/3ba3e350fd15c133a172095f67e6e0c99ab9b410">doc: remove references to undepreciated commands being deprecated.</a></td>
+    <td>OpenSSL</td>
+    <td> dsa </td>
+    <td>Pauli</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/7bc027d73bc51cfa0ae23fbfd91134be9464d694">Fallback to legacy pem decoding if OSSL_DECODER fails</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Tomas Mraz</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/b4c4a2c68817ea0b2df8012673fa4e0712681704">Implement pem_read_key directly through OSSL_DECODER</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Tomas Mraz</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/e9fe0f7e9df7e0909ca52a024b889e48616a29d9">Replace EVP_PKEY_supports_digest_nid</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Tomas Mraz</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/4639772523e5cb979722483b9374e0c275afde7d">clarification about the DES status</a></td>
+    <td>OpenSSL</td>
+    <td> cfb </td>
+    <td>Dmitry Belyavskiy</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/ce70766cb22f2ff88d21d5f60f47cfb4d126ca61">Makefile: Make sure providers/fipsmodule.cnf is re-built also for run_tests</a></td>
+    <td>OpenSSL</td>
+    <td> hmac</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/66ddc0759a435672f1c48b856a0968e7f6e35a82">x509: fix a dangling pointer</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Pauli</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/7f24110a005496617110495e826d283900a028b7">EVP_PKEY-X25519.pod: Correct EVP_PKEY_Q_keygen function name in example</a></td>
+    <td>OpenSSL</td>
+    <td>ed25519</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Thu, 13 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/307a38fa5fafd715b02f31b2c861b47bd38ed509">Add $AESDEF in libdefault.a to fix aes regression</a></td>
+    <td>OpenSSL</td>
+    <td>aes </td>
+    <td>Xiaofei Bai</td>
+    <td>Thu, 13 May 2021</td>
     </tr>
 
     <tr>
@@ -316,62 +404,6 @@ Found 52 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/4c8e6f7d20c74c7711823d7d724c39ab7eb5eeaf">Prepare for 3.0 alpha 17</a></td>
-    <td>OpenSSL</td>
-    <td> tls </td>
-    <td>Matt Caswell</td>
-    <td>Thu, 06 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/d0c041b13ad12c2c689313c607e2c001f3d5a1b7">Prepare for release of 3.0 alpha 16</a></td>
-    <td>OpenSSL</td>
-    <td> tls </td>
-    <td>Matt Caswell</td>
-    <td>Thu, 06 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/aff636a4893e24bdc686a00a13ae6199dd38d6aa">Update copyright year</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Matt Caswell</td>
-    <td>Thu, 06 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/d105a24c8987dde38595a2fa336057b141e5ddf3">Add some tests for -inform/keyform enforcement</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Tomas Mraz</td>
-    <td>Thu, 06 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/bee3f3890547cc7f349b69ef63665ebcc80d48ed">Document the behavior of the -inform and related options</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Tomas Mraz</td>
-    <td>Thu, 06 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/d382e79632677f2457025be3d820e08d7ea12d85">Make the -inform option to be respected if possible</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Tomas Mraz</td>
-    <td>Thu, 06 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/a35536b52d91d02cbfeef22d1373a92252d19d62">coverity: fix 1478169: dereference after NULL check</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Thu, 06 May 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/bcgit/bc-java/commit/29fc749a872674d352431f5231f69dc44651fde4">Merge remote-tracking branch 'origin/master'</a></td>
     <td>BouncyCastle</td>
     <td>aes </td>
@@ -440,7 +472,7 @@ Found 52 keyword matches!
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Thu, 13 May 2021, 00:09:33 +0000;
+<strong>Last Updated:</strong> Fri, 14 May 2021, 00:11:07 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
