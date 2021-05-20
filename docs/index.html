@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 52 keyword matches!
+Found 55 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -18,14 +18,6 @@ Found 52 keyword matches!
 <th scope="col">Author</th>
 <th scope="col">Date</th>
 </tr>
-
-    <tr>
-    <td><a href="https://github.com/rubygems/rubygems/commit/2af11151eb68f487efd64acc48260360653a7b84">Merge pull request #3141 from rubygems/test-unit</a></td>
-    <td>RubyGems</td>
-    <td>openssl</td>
-    <td>Hiroshi SHIBATA</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
 
     <tr>
     <td><a href="https://github.com/rails/rails/commit/b16de2c8f671815035d34120a570b0fcbb07c293">Merge pull request #42246 from ashiksp/fix-redis-ssl-params-format</a></td>
@@ -65,6 +57,118 @@ Found 52 keyword matches!
     <td>openssl</td>
     <td>Ashik Salman</td>
     <td>Mon, 17 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/7c73fefe38f4fce9437b1d24d90dd5aa411c7e28">Let SSL_new_session_ticket() enter init immediately</a></td>
+    <td>OpenSSL</td>
+    <td> ssl </td>
+    <td>Benjamin Kaduk</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/e34e91d7e575a2f69119601f2d34655cb6816148">danetest.c: Improve code formatting</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/d6bf19a465968b6ecc98b479fc770651deaa4e01">X509_STORE_CTX_get1_issuer(): Simplify code, reducing risk of failure</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/558f2a014646bb057f3876b28e32b13d8178400e">X509 build_chain(): Fix two potential memory leaks on issuer variable</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/fc48b5c825352f519538ed26f2caa8aeca8b9ba0">X509 build_chain(): Make the variable 'curr' local to the loop body</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/e2abc685b70bc7d6525d4c1aab9e031b1986ddd8">X509 build_chain(): Rename variable 'depth' to 'max_depth'</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/aaa584cee7d2172b6a4a5165d685b473b07a0de3">X509 build_chain(): Restrict scope of 'self_signed' variable</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/b41ebb991e8bbce736cf73b9c3d6b7c3e208b2b0">speed: Document the deficiencies of the command</a></td>
+    <td>OpenSSL</td>
+    <td> csprng </td>
+    <td>Tomas Mraz</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/d2f53212933f751ef76acca9cc05bcb67d799964">Make sure to include "internal/numbers.h" to get SIZE_MAX</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Richard Levitte</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/8ba3a15816c6e417967eac13ee415325c52675b4">Configurations/descrip.mms.tmpl: Add another inclusion hack</a></td>
+    <td>OpenSSL</td>
+    <td>curve448</td>
+    <td>Richard Levitte</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/da51dc5f68c9e7924be3d5071ba8aea439a4d1c9">Move some OpenSSL perl utility functions to OpenSSL::Util</a></td>
+    <td>OpenSSL</td>
+    <td> tls </td>
+    <td>Richard Levitte</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/1b96cc70eb466f12b5abd9d90900e875a2236509">apps/cms.c: Simplify make_receipt_request() and load_content_info(()</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/7c701c590d4b368fedf5dad222b4f3b8103b2381">Make SMIME_read_CMS_ex() and SMIME_read_ASN1_ex() support binary input</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Wed, 19 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/e53ad1d8f29332c0ce4ec68d071286af01afbc38">Remove '=for openssl ifdef'</a></td>
+    <td>OpenSSL</td>
+    <td> dsa </td>
+    <td>Rich Salz</td>
+    <td>Wed, 19 May 2021</td>
     </tr>
 
     <tr>
@@ -316,70 +420,6 @@ Found 52 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/466cab4758289f91215eada905cf334d334830fa">apps: improve hygeine for SET_EXPECT macro</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Benjamin Kaduk</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/f84ab284e91991a80191cf0e6d22ddc452043661">make update</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Benjamin Kaduk</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/8f965908a53b4f0c5a735739e8a273a3a33a976e">HTTP client: Minimal changes that include the improved API</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Dr. David von Oheimb</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/4329f361ce75973ceca9d440e8430580ee515070">Add ASN1_item_i2d_mem_bio(); document and improve also ASN1_item_d2i_bio()</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Dr. David von Oheimb</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/6a2ab4a9c81c676570e849e474ce64f8c2dee2a9">Allow arbitrary digests with ECDSA and DSA</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Tomas Mraz</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/482e6693b436e2de31a7c20d03fc73398b04767f">apps: change list command to only list fetchable algorithms.</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/ab6db11e63485e8dc17f768f9be35a9120f20c91">Run-checker converted to GitHub Actions</a></td>
-    <td>OpenSSL</td>
-    <td>chacha</td>
-    <td>Pauli</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/7303c5821779613e9a7fe239990662f80284a693">Add OID for RPKI id-ct-signedChecklist</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Job Snijders</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/bcgit/bc-java/commit/382a9156ec964ed980498a015a9acea69d063cf6">Add createVerifier from signature scheme</a></td>
     <td>BouncyCastle</td>
     <td>ed25519</td>
@@ -419,28 +459,12 @@ Found 52 keyword matches!
     <td>Thu, 13 May 2021</td>
     </tr>
 
-    <tr>
-    <td><a href="https://github.com/nss-dev/nss/commit/595deb8fbce65e931935fb7e22aea785cb6016ad">Bug 1710773 NSS needs FIPS 180-3 FIPS indicators. r=mt</a></td>
-    <td>NSS</td>
-    <td> kdf </td>
-    <td>Robert Relyea</td>
-    <td>Wed, 12 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/nss-dev/nss/commit/6c61c1f77663df73f752e07893519aef92315c0a">Bug 1709291 - add VerifyCodeSigningCertificateChain r=bbeurdouche</a></td>
-    <td>NSS</td>
-    <td> sha256 </td>
-    <td>Dana Keeler</td>
-    <td>Tue, 18 May 2021</td>
-    </tr>
-
 </table>
 </div>
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Wed, 19 May 2021, 00:10:49 +0000;
+<strong>Last Updated:</strong> Thu, 20 May 2021, 00:10:41 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
