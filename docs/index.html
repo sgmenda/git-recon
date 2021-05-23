@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 53 keyword matches!
+Found 57 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -18,6 +18,14 @@ Found 53 keyword matches!
 <th scope="col">Author</th>
 <th scope="col">Date</th>
 </tr>
+
+    <tr>
+    <td><a href="https://github.com/rails/rails/commit/b63e1477eaccfa6416db4f09bb82880ecb0797d1">Lock benchmark-ips version "< 2.9.0"</a></td>
+    <td>Rails</td>
+    <td> bcrypt </td>
+    <td>Ryuta Kamizono</td>
+    <td>Sat, 22 May 2021</td>
+    </tr>
 
     <tr>
     <td><a href="https://github.com/rails/rails/commit/b16de2c8f671815035d34120a570b0fcbb07c293">Merge pull request #42246 from ashiksp/fix-redis-ssl-params-format</a></td>
@@ -57,6 +65,46 @@ Found 53 keyword matches!
     <td>openssl</td>
     <td>Ashik Salman</td>
     <td>Mon, 17 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/b6f0f050fd6e40286eb33fcdf28507b0f9b79b26">80-test_cmp_http: Invert and correct the logic of success vs. failure exit</a></td>
+    <td>OpenSSL</td>
+    <td> tls </td>
+    <td>Dr. David von Oheimb</td>
+    <td>Sat, 22 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/1b77f00a9b0469fe578c60710e760ebc2b908e21">Configurations/descrip.mms.tmpl: rework the inclusion hacks</a></td>
+    <td>OpenSSL</td>
+    <td>curve448</td>
+    <td>Richard Levitte</td>
+    <td>Sat, 22 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/84faea44e6ad9ff7f470b5958e7303f6c521bf2e">Fix upgrading docs for RSA_private_encrypt/RSA_public_decrypt</a></td>
+    <td>OpenSSL</td>
+    <td> rsa </td>
+    <td>Robbie Harwood</td>
+    <td>Sat, 22 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/56c98a7d94d25df5999bd12c600788ec947e588c">apps/cms: Simplify handling of encerts; add warning if they are ignored</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Dr. David von Oheimb</td>
+    <td>Sat, 22 May 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/f90040f80512cb5905214f1a420e8aab31deb706">doc: process images when installing</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Pauli</td>
+    <td>Sat, 22 May 2021</td>
     </tr>
 
     <tr>
@@ -380,43 +428,27 @@ Found 53 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/6dc56df26c41666ee5138da6c97bdb400fd03025">Add extensive test coverage for SSL_get_negotiated_group()</a></td>
-    <td>OpenSSL</td>
-    <td> tls </td>
-    <td>Benjamin Kaduk</td>
-    <td>Sat, 15 May 2021</td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/1570de21c60320ac83df968db2cb060fd4a4944c">#904 update</a></td>
+    <td>BouncyCastle</td>
+    <td>ed25519</td>
+    <td>David Hook</td>
+    <td>Sat, 22 May 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/f89d3d698c570703b7fc0908603faf61f6f68446">move group lists out of test_key_exchange() in preparation for reuse</a></td>
-    <td>OpenSSL</td>
-    <td>x25519</td>
-    <td>Benjamin Kaduk</td>
-    <td>Sat, 15 May 2021</td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/7ab0bdf91c3d91f489e4c727f1b8ee233b0ef902">Java 4 compatibility.</a></td>
+    <td>BouncyCastle</td>
+    <td>ed25519</td>
+    <td>David Hook</td>
+    <td>Sat, 22 May 2021</td>
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/75d4852090bb898b39be8e7ae2874720bd0a9c5c">Extend SSL_get_negotiated_group() tests for TLS 1.2</a></td>
-    <td>OpenSSL</td>
-    <td> tls </td>
-    <td>Benjamin Kaduk</td>
-    <td>Sat, 15 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/c22ad9b64a9f2cca64400836caee7279a9de8cc1">Regenerate testsid.pem</a></td>
-    <td>OpenSSL</td>
-    <td> ssl </td>
-    <td>Benjamin Kaduk</td>
-    <td>Sat, 15 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/aa6bd216dd2691d1254eabcbd584691eb3b4b9b8">Promote SSL_get_negotiated_group() for non-TLSv1.3</a></td>
-    <td>OpenSSL</td>
-    <td> tlsv1.3 </td>
-    <td>Benjamin Kaduk</td>
-    <td>Sat, 15 May 2021</td>
+    <td><a href="https://github.com/bcgit/bc-java/commit/a84c52a5753bf9c1b2b4709d6084ae8db1acc308">Java 1.4 compatibility changes</a></td>
+    <td>BouncyCastle</td>
+    <td>x509</td>
+    <td>David Hook</td>
+    <td>Fri, 21 May 2021</td>
     </tr>
 
     <tr>
@@ -448,7 +480,7 @@ Found 53 keyword matches!
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Sat, 22 May 2021, 00:10:42 +0000;
+<strong>Last Updated:</strong> Sun, 23 May 2021, 00:11:39 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
