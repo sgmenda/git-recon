@@ -108,7 +108,7 @@ keywords = [
 
 [projects.Tor]
 url = "https://git.torproject.org/tor.git"
-branch = "master"
+branch = "main"
 commitUrlPrefix = "https://gitweb.torproject.org/tor.git/commit/?id="
 
 #
