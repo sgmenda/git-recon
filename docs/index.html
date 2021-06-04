@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 69 keyword matches!
+Found 57 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -44,11 +44,43 @@ Found 69 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/rubygems/rubygems/commit/32f6546487cb908da74dc880695f1668a84a898d">Merge pull request #4599 from rubygems/more_lib_test_independent_locations</a></td>
-    <td>RubyGems</td>
-    <td>openssl</td>
-    <td>Josef Šimánek</td>
-    <td>Thu, 27 May 2021</td>
+    <td><a href="https://github.com/openssl/openssl/commit/376a8c3f46b658027e77165ecb52021b6b27b61a">Teach ASN1_item_verify_ctx() how to handle provided keys</a></td>
+    <td>OpenSSL</td>
+    <td>ed25519</td>
+    <td>Matt Caswell</td>
+    <td>Thu, 03 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/b7d2bd1219db7e12f8bde6667cb7771b0b83c2fe">Deprecate EVP_CIPHER_impl_ctx_size and EVP_CIPHER_CTX_buf_noconst</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Richard Levitte</td>
+    <td>Thu, 03 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/17213b2ad03fe577c03a3e77142242adde41fa9f">Restore all the ? in util/libcrypto.num</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Richard Levitte</td>
+    <td>Thu, 03 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/64360304863b3ac93a03dfadf36f9aeffd6a29ce">rsa: make the maximum key strength check FIPS only.</a></td>
+    <td>OpenSSL</td>
+    <td> rng </td>
+    <td>Pauli</td>
+    <td>Thu, 03 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/74613e8c97be6c310152f7cc6d8162f3ccc723a4">update checksums</a></td>
+    <td>OpenSSL</td>
+    <td>curve25519</td>
+    <td>Pauli</td>
+    <td>Thu, 03 Jun 2021</td>
     </tr>
 
     <tr>
@@ -396,78 +428,6 @@ Found 69 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/29604f492020b76fde2665cde3f2a9c5adea3549">coverity 1484913: Null pointer dereferences (REVERSE_INULL)</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/91f2b15f2ecd9dd92b6ed2563b10c1a126db2643">TEST: Prefer using precomputed RSA and DH keys for more efficient tests</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Dr. David von Oheimb</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/54e8f7259bec08a6655a0693a315a75d9ce65e95">DOC: Improve description of 'req' app: -new, -newkey, and -keyout options</a></td>
-    <td>OpenSSL</td>
-    <td> dsa </td>
-    <td>Dr. David von Oheimb</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/3257179b7a9a9430c5b54fe0321fdc6862f91345">Fix spelling mistake in d2i_PrivateKey.pod</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Shane Lontis</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/8cf78d634ba389573d8006c36bce2f0bc36e43f0">Add demo for EC keygen</a></td>
-    <td>OpenSSL</td>
-    <td> tls </td>
-    <td>Shane Lontis</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/422da9bbfb739a5d42292c990c0b81552060d5a2">test: test MP genrsa in deprecated builds</a></td>
-    <td>OpenSSL</td>
-    <td> rsa </td>
-    <td>Pauli</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/5c99d57ea3903211f313e7760f045ac48273e79d">test: add test for key generation strength > RNG strength</a></td>
-    <td>OpenSSL</td>
-    <td> rng </td>
-    <td>Pauli</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/dfad3a00be4101479744cac1fe4314c567f1e35e">test: test genrsa in deprecated builds</a></td>
-    <td>OpenSSL</td>
-    <td> rsa </td>
-    <td>Pauli</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/476798f22f76040dc5218aa8e91ffb0177fea9e7">rsa: check that the RNG is capable of producing a key of the specified size</a></td>
-    <td>OpenSSL</td>
-    <td> rng </td>
-    <td>Pauli</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/bcgit/bc-java/commit/fe15986151ee716e492da430bcfd8989dc595ae0">compatibility files.</a></td>
     <td>BouncyCastle</td>
     <td>ed25519</td>
@@ -515,68 +475,12 @@ Found 69 keyword matches!
     <td>Sat, 29 May 2021</td>
     </tr>
 
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/48c60f7d7bb9c9b69adbcbcb5127f2d5bf1cbc91">Java 4 changes.</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>David Hook</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/d4bc8bb8c1a7d73cff8684118880070b6a759924">corrected hash traversal (off by 1 error...)</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>David Hook</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/5f8b058ef385b26e4f0ae06590d65d98b98a5bfd">extend ECIES with SHA256, SHA384 and SHA512</a></td>
-    <td>BouncyCastle</td>
-    <td> hmac</td>
-    <td>Lijun Liao</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/ccd749daec289e54fc7810396436aa64dea2eea3">github #927 cleanup of excess DER NULL.</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>David Hook</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/57d48344a1b4708c044508af795b1e1542205133">cleanups, Java 4 updates.</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>David Hook</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/4357c8154d352bfebf0f63712602891c0ad4fef2">added ERS, PLAIN-ECDSA changes</a></td>
-    <td>BouncyCastle</td>
-    <td> sha3 </td>
-    <td>David Hook</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/c98faa9f70ae7f4e4a6f0b61cd56ea17c793299c">First cut of RFC 4998 highlevel support</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>David Hook</td>
-    <td>Thu, 27 May 2021</td>
-    </tr>
-
 </table>
 </div>
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Thu, 03 Jun 2021, 00:25:39 +0000;
+<strong>Last Updated:</strong> Fri, 04 Jun 2021, 00:29:08 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
