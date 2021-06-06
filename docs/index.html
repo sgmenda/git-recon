@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 71 keyword matches!
+Found 76 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -33,6 +33,102 @@ Found 71 keyword matches!
     <td>openssl</td>
     <td>Yusuke Endoh</td>
     <td>Wed, 02 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/6a5f97a671de6d4d9f0cd6f6fc23ad89ca4ad69f">PROV: drop get_params() and gettable_params() from all encoder implementatio</a></td>
+    <td>OpenSSL</td>
+    <td> rsa </td>
+    <td>Richard Levitte</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/9379bf943a12090de6280e88fb0d246e73658116">DECODER: use property definitions instead of getting implementation parameters</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Richard Levitte</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/0b3fe363e6188dcb854d480180c9af91cc613f2c">make update-fips-checksums</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Richard Levitte</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/3d9d1ce52904660757dadeb629926932abe25158">Add documentation for newly added ASN1 functions</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/d2b6c06274f37c5c6c967939ee556c4be5b568d0">Ensure libctx/propq is propagated when handling X509_REQ</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/7be04a3ac40fb6cf83be2c619dc30625988c6742">Give ASN.1 objects the ability to report their libctx/propq</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/6282d6c28456543734defc45f653adeec1362958">Make sure X509_dup() also dup's any associated EVP_PKEY</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/c6313780586f94b0542f55c3ffa399f5ad2c7297">Use the new ASN.1 libctx aware capabilities in CMP</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/dea2878fac8bde549fa0dd3b8e895703b174391b">Teach more of the ASN.1 code about libctx/propq</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/c8a9af97c928118ae4626d793d0b73552648b7ea">Teach the ASN.1 code how to create embedded objects with libctx/propq</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/62653483464b78ae57bff9b807ee3328e0f078f3">Fix evp_extra_test to use libctx in an X509_PUBKEY</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/d6ded941c94803adf090f17093c8ff905f259ca8">Provide the ability to create an X509_PUBKEY with a libctx/propq</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>Matt Caswell</td>
+    <td>Sat, 05 Jun 2021</td>
     </tr>
 
     <tr>
@@ -364,54 +460,6 @@ Found 71 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/f839361e3e45b5becce7c3267fa8e2f72654e75f">make update-fips-checksums</a></td>
-    <td>OpenSSL</td>
-    <td>curve25519</td>
-    <td>Richard Levitte</td>
-    <td>Sat, 29 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/5cbd2ea3f94aa8adec9b4486ac757d4d688e3f8c">add zero strenght arguments to BN and RAND RNG calls</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Sat, 29 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/965fa9c0804dadb6f99dedbff9255a2ce6ddb640">prov: add zero strenght arguments to BN and RAND RNG calls</a></td>
-    <td>OpenSSL</td>
-    <td>ed25519</td>
-    <td>Pauli</td>
-    <td>Sat, 29 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/30691da1ba465f3cff5d865187fbf5c5244448eb">ec: Add PPC64 vector assembly version of p521 field operations</a></td>
-    <td>OpenSSL</td>
-    <td>x25519</td>
-    <td>Amitay Isaacs</td>
-    <td>Sat, 29 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/1036749883ccf38ed11afe424d69708cfdca99f3">ec: Add run time code selection for p521 field operations</a></td>
-    <td>OpenSSL</td>
-    <td>x25519</td>
-    <td>Martin Schwenke</td>
-    <td>Sat, 29 May 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/a7014122ac4d7b29e349e51028994581e8a73840">BIO_s_accept.pod: Add missing documentation for BIO_{get,set}_accept_ip_family()</a></td>
-    <td>OpenSSL</td>
-    <td> ssl </td>
-    <td>Dr. David von Oheimb</td>
-    <td>Sat, 29 May 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/bcgit/bc-java/commit/cd366690dc63b981aa99e5b271295bc94d1a0e94">Use key manager multiple key type lookup</a></td>
     <td>BouncyCastle</td>
     <td> tls </td>
@@ -579,20 +627,12 @@ Found 71 keyword matches!
     <td>Sun, 30 May 2021</td>
     </tr>
 
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/2ce5cba84bbf357aaf95d600c3995e9918b31157">Support for JSSE ALPN methods when in JDK 8</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>Peter Dettman</td>
-    <td>Sat, 29 May 2021</td>
-    </tr>
-
 </table>
 </div>
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Sat, 05 Jun 2021, 00:22:46 +0000;
+<strong>Last Updated:</strong> Sun, 06 Jun 2021, 00:17:36 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
