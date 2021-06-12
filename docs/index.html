@@ -8,7 +8,7 @@
 <div class="container-fluid">
 <h1>Git Recon</h1>
 <div class="alert alert-info" role="alert">
-Found 84 keyword matches!
+Found 75 keyword matches!
 </div>
 <table class="table table-hover" style="width:100%">
 <tr>
@@ -25,6 +25,30 @@ Found 84 keyword matches!
     <td> bcrypt </td>
     <td>Rafael Mendonça França</td>
     <td>Tue, 08 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/8ccbf00d1786f25af5e64a2354f87aef31b57bdf">Rename OSSL_HTTP_set_request() to OSSL_HTTP_set1_request() for clarity</a></td>
+    <td>OpenSSL</td>
+    <td> tls </td>
+    <td>Dr. David von Oheimb</td>
+    <td>Fri, 11 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/8c5bff2220c4f39b48660afda40005871f53250d">Add support for ISO 8601 datetime format</a></td>
+    <td>OpenSSL</td>
+    <td>x509</td>
+    <td>William Edmisten</td>
+    <td>Fri, 11 Jun 2021</td>
+    </tr>
+
+    <tr>
+    <td><a href="https://github.com/openssl/openssl/commit/67eacb60a8a46b610b98533c7e8ae5bd199e49d7">Do not depend on the exact exit failure value of dgst app</a></td>
+    <td>OpenSSL</td>
+    <td> rsa </td>
+    <td>Tomas Mraz</td>
+    <td>Fri, 11 Jun 2021</td>
     </tr>
 
     <tr>
@@ -372,46 +396,6 @@ Found 84 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/f43f9d6313e31e90bb33a7f6f2fc0c657ef8495a">Test a bad SmtpUTF8Mailbox name constraint</a></td>
-    <td>OpenSSL</td>
-    <td> rsa </td>
-    <td>Matt Caswell</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/39145c4111aaa358f521212f5e4c741f265b012a">Check that we got the expected name type when verifying name constraints</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Matt Caswell</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/0e0a47377f98ac45648d2a46e0f2dfd799b07ec6">Update fips checksums to drop the ssl headers</a></td>
-    <td>OpenSSL</td>
-    <td> ssl </td>
-    <td>Tomas Mraz</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/085e3cecbdadde10e93abfb4dbd3e865aeed58d6">Move libssl related defines used by fips provider to prov_ssl.h</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Tomas Mraz</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/openssl/openssl/commit/51cda01c61870c2433fbbd54d69f2267362ea608">req: detect a bad choice of digest early</a></td>
-    <td>OpenSSL</td>
-    <td>x509</td>
-    <td>Pauli</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/bcgit/bc-java/commit/7fa5edc4b655ab59cf33852d2f7da4671f038f4b">checkstyle added left-curly check.</a></td>
     <td>BouncyCastle</td>
     <td> gcm </td>
@@ -628,62 +612,6 @@ Found 84 keyword matches!
     </tr>
 
     <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/2d3a9100e2a3d30c1bcc142895000f107f82ac43">Sanity check for 1.3 EC filters</a></td>
-    <td>BouncyCastle</td>
-    <td> tls </td>
-    <td>Peter Dettman</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/29dec01be36bc4b84dd3cf184e5efbce41977928">Add ECDSA credentials test for 1.2, 1.3</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>Peter Dettman</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/ed16b3ed3e84c9d37b8842f62103c149ed5e0493">Add SignatureScheme.getCryptoHashAlgorithm</a></td>
-    <td>BouncyCastle</td>
-    <td>ed25519</td>
-    <td>Peter Dettman</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/3c30829b1b909de443449ffe5545b4078c90fc52">Refactor key managers</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>Peter Dettman</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/941b1df64137e2ba61dbf97629c21ca62591446d">TLS 1.3 support for ECDSA keys</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>Peter Dettman</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/32ba17beb7d7bff6c275f482f062428fdd52dd75">Log key type for matched keys</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>Peter Dettman</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
-    <td><a href="https://github.com/bcgit/bc-java/commit/3932ed438d48ffa4823c1470a58c7fc0926a204b">Restrict search after valid candidate found</a></td>
-    <td>BouncyCastle</td>
-    <td>x509</td>
-    <td>Peter Dettman</td>
-    <td>Fri, 04 Jun 2021</td>
-    </tr>
-
-    <tr>
     <td><a href="https://github.com/nss-dev/nss/commit/f263c383f4013166e1980e714c10cfd484d86822">Bug 1683710 - Add a means to disable ALPN, r=bbeurdouche</a></td>
     <td>NSS</td>
     <td> tls </td>
@@ -696,7 +624,7 @@ Found 84 keyword matches!
 <footer>
 <div class="container">
 <span class="text-muted">
-<strong>Last Updated:</strong> Fri, 11 Jun 2021, 00:08:37 +0000;
+<strong>Last Updated:</strong> Sat, 12 Jun 2021, 00:08:27 +0000;
 Generated using <a href="https://github.com/sgmenda/git-recon">sgmenda/git-recon</a>
 </span>
 </div>
